@@ -8,7 +8,6 @@ const Login = () => {
   const navigate = useNavigate();
   const { loading, error } = useSelector((state) => state.auth);
 
-  // UPDATED: Using the new working credentials for DummyJSON
   const [form, setForm] = useState({
     username: "emilys",
     password: "emilyspass",
